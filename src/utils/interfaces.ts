@@ -44,3 +44,24 @@ export interface Clients {
   id: string;
   logo: string;
 }
+
+export interface Styles {
+  boxWidth: string;
+  heading2: string;
+  paragraph: string;
+  flexCenter: string;
+  flexStart: string;
+  paddingX: string;
+  paddingY: string;
+  padding: string;
+  marginX: string;
+  marginY: string;
+}
+
+export interface Layout {
+  section: string;
+  sectionReverse: string;
+  sectionImgReverse: string;
+  sectionImg: string;
+  sectionInfo: string;
+}
