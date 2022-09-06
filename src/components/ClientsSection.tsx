@@ -10,7 +10,7 @@ const ClientsSection = () => {
         {clients.map((client) => (
           <div
             key={client.id}
-            className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-30 transition-all hover:bg-emerald-300 py-3 px-1 rounded-[10px] duration-500`}
+            className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-30 transition-all py-3 px-1 rounded-[10px] duration-500 bg-gradient-to-r hover:from-green-400 hover:to-blue-500`}
           >
             <img
               src={client.logo}
