@@ -3,7 +3,6 @@ import React from "react";
 import { features } from "../constents";
 import styles, { layout } from "../utils/style";
 import Button from "./Button";
-import { Features } from "../utils/interfaces";
 
 const FeatureCard = ({
   icon,
